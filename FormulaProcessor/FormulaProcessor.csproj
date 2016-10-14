@@ -71,6 +71,7 @@
     <Compile Include="Parts\Operators\Binary\Subtraction\SubtractionException.cs" />
     <Compile Include="Parts\Operators\Operator.cs" />
     <Compile Include="Parts\Operators\Priority.cs" />
+    <Compile Include="Parts\Operators\Unary\Not\Not.cs" />
     <Compile Include="Parts\Part.cs" />
     <Compile Include="Parts\PartException.cs" />
     <Compile Include="Parts\Operators\Unary\UnaryOperator.cs" />

@@ -15,6 +15,7 @@ namespace FormulaProcessor.Parts.Operators
         Addition = 3,
         Subtraction = 3,
         Comparison = 4,
+        Not = 4,
         Equality = 5,
         And = 6,
         Or = 7

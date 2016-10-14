@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FormulaProcessor.Parts.Operators.Unary.Not;
 
 namespace FormulaProcessor.Parts.Operands
 {
@@ -104,6 +105,11 @@ namespace FormulaProcessor.Parts.Operands
         public static Operand operator <=(Operand lhs, Operand rhs)
         {
             return new LessThanOrEqual(lhs, rhs).Execute();
+        }
+
+        public static Operand operator !(Operand operand)
+        {
+            return new Not(operand).Execute();
         }
 
     }
